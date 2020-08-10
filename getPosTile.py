@@ -8,4 +8,6 @@ Created on Mon Aug 10 11:25:44 2020
 from mcpi.minecraft import Minecraft                        
 mc = Minecraft.create()
 
-print(mc.player.getTilePos())
+pos=mc.piayer.getTilePos()
+
+mc.setBlock(pos,15)
